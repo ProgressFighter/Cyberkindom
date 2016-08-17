@@ -1,0 +1,53 @@
+@mixin navfontSetting($size, $color){
+         font-size: $size;         
+         color: $color;
+         font-family: "Tahoma";
+         font-weight: bold;
+         line-height: 0.6;
+         text-align: center;               
+         z-index: 5;
+}
+
+@mixin homefontSetting($size, $color){
+         font-size: $size;         
+         color: $color;
+         font-family: "Tahoma";
+         font-weight: bold;
+         line-height: 0.6;
+         text-align: center;               
+         z-index: 5;
+}
+
+@mixin errorfontSetting($size){
+         font-size: $size;         
+         color: #9D364E;
+         font-family: "Tahoma";
+         font-weight: bold;
+         line-height: 0.6;             
+         z-index: 5;
+}
+
+@mixin whiteTahomaFont($size){
+         font-size: $size;         
+         color: #fff;
+         font-family: "Tahoma";
+         font-weight: bold;
+         line-height: 0.6;             
+         z-index: 5;
+}
+
+
+@mixin rounded_borders($color, $width: 1px, $rounding: 8px){
+     -moz-border-radius: $rounding $rounding;
+     -webkit-border-radius: $rounding $rounding;
+     -khtml-border-radius: $rounding $rounding;
+     -o-border-radius: $rounding $rounding;
+     border: $width $color solid; 
+}
+
+
+
+
+
+
+

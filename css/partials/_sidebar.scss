@@ -1,0 +1,16 @@
+/***************/
+/* SIDE COLUMN */
+/***************/
+.secondary-column {
+    
+     background-color: $sidebar-color;
+     width: 25%;
+     float: right;	
+     margin-top: 20px;
+     @include rounded_borders(#bbb, 0px); 
+
+}
+
+/**********************/
+/* END OF SIDE COLUMN */
+/**********************/

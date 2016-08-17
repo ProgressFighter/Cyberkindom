@@ -1,0 +1,5 @@
+**/.sass-cache/**
+**/frontend.scss~
+**/frontend.css.map
+js/pages-logic.js~
+.gitignore~

@@ -1,0 +1,35 @@
+/***********/
+/* FOOTER */
+/***********/
+
+.site-footer {
+	margin-top: 30px;
+    border-top: 2px solid #999;
+    background-color: $footer-color;
+    height: 130px;
+
+    nav {
+        background-color: $footer-color;
+        ul {
+             li {
+                margin-right: 10px;
+                margin-left: 5px;
+                padding-right: 10px;
+                border-right: 1px dotted #BBB;
+                float: left;
+
+                a {
+                    color: #FFF;
+                    text-decoration: none;
+                }
+             }
+        }
+        
+    }
+
+    
+}
+
+/******************/
+/* END OF FOOTER */
+/******************/
