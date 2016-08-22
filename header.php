@@ -18,6 +18,9 @@
 		    <!-- hd-search -->
             <div class="hd-search">
 		      <?php get_search_form(); ?> 
+		     
+   
+
 		    </div> <!-- /hd-search --> 
 		
 		</div>    	      	

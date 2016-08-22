@@ -18,10 +18,10 @@
 
    .hd-search {
        position: absolute;
-       right: 30px;
-       top: 12px; 
-       
+       right: 60px;
+       top: 12px;        
    }
+
    .bg-image {
      position: absolute;
      
@@ -55,7 +55,7 @@
 
 #bar {
     background-color: $bar-color;
-    height: 50px;
+    height: 70px;
     width: 1280px;
 
     //homelink
@@ -71,33 +71,41 @@
         width: 146px;
         background-image: url(http://localhost/jsview/wordpress/wp-content/themes/jsspace-theme/images/home.jpg); 
         
-    }
-
-
-   
+    } 
 }
 
 
 
  //searchform
 .hd-search {
+       
+       
+
        label {
-          position: absolute;
-          left: -9999px;
+           position: absolute;
+           left: -9999px;
        }
 
-       #searchsubmit{
-          background-color: #6795B9;
-          color: #FFF;
-          padding: 5px 14px;
-          border: none;
-          vertical-align: top;
+       input {
+            
        }
-       
+
        #s {
-         vertical-align: top;
-         padding: 3px 0;
-       }  
+          vertical-align: top;
+          padding: 3px 0;
+       }
+
+
+       #submit {
+          top: 4px;
+          right: 49px;
+          background-color: transparent;
+          
+          border: 0px;
+          padding: 5px 14px;
+          vertical-align: top; 
+       }    
+      
 }
 
 .bg-image {
