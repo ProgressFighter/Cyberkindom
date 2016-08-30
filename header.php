@@ -23,8 +23,13 @@
 
 		    </div> <!-- /hd-search --> 
 		
-		</div>    	      	
-      
+		</div> 
+
+
+		<image class="bg-image"/>
+
+		   	      	
+        
 		<div id="site-info">   </div>  
 		
         <nav class="site-nav">

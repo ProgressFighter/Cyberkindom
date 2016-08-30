@@ -55,7 +55,7 @@
 
 #bar {
     background-color: $bar-color;
-    height: 70px;
+    height: 60px;
     width: 1280px;
 
     //homelink
@@ -109,10 +109,10 @@
 }
 
 .bg-image {
-opacity: 0.8;
-background-image: url(http://localhost/jsview/wordpress/wp-content/themes/jsspace-theme/images/jsback.jpg);
+opacity: 0.9;                   
+background-image: url(http://cyberkindom.ru/wp-content/themes/cyberkindom-belyakov/images/guru.jpg);
 background-position: left;
-background-size: 1200px 600px;
+background-size: 1200px 400px;
 background-repeat: no-repeat;
 
 
@@ -130,14 +130,17 @@ background-repeat: no-repeat;
      	padding: 0;     	
         *zoom: 1;
         li {
-            margin-right: 5px; 
+             
             list-style: none;
             float: left;
+            
             background-color: $nav-item-color;
-              a {
+            box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.07);
+            border: 0px solid #121212;
 
+              a {
                 @include navfontSetting(18, $nav-font-color);
-             
+                          
                 &:visited {
                     display: block;
                     padding: 10px 18px;
@@ -151,13 +154,14 @@ background-repeat: no-repeat;
                
                   &:hover {
                      background-color: $nav-color-hover;
-                }
-                 
+                     color: #fcb;
+                }                 
                
               }
-
  
          }
+
+        
      }
 
      ul:before{

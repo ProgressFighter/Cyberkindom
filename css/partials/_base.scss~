@@ -1,7 +1,7 @@
 $base-color: #333;          //black
 $bg-color: #fff;            //white
 
-       
+$link-color: #fcb;       //blue
 $post-link-color: #53d2bc;  //turquoise
 $home-link-color: #fff;     //white
 
@@ -12,11 +12,9 @@ $header-btm-color: #999;    //gray
 $bar-color:  #187D99;       //green
 $bar-buttons: #1A8BAB;   
 
-
-$link-color: #2f2f2f;
 $nav-color: #2f2f2f;        //dark-gray
 $nav-item-color: #2f2f2f;
-$nav-color-hover: #2f2f2f;  //blue
+$nav-color-hover: #2f2f2f;  //
 $nav-font-color: #fff;   //white
 
 

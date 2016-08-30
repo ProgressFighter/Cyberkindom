@@ -44,7 +44,7 @@
 
 #bar {
   background-color: #187D99;
-  height: 70px;
+  height: 60px;
   width: 1280px; }
   #bar #home {
     text-decoration: none;
@@ -77,27 +77,28 @@
   vertical-align: top; }
 
 .bg-image {
-  opacity: 0.8;
-  background-image: url(http://localhost/jsview/wordpress/wp-content/themes/jsspace-theme/images/jsback.jpg);
+  opacity: 0.9;
+  background-image: url(http://cyberkindom.ru/wp-content/themes/cyberkindom-belyakov/images/guru.jpg);
   background-position: left;
-  background-size: 1200px 600px;
+  background-size: 1200px 400px;
   background-repeat: no-repeat; }
 
 .site-nav {
-  background-color: #fff;
+  background-color: #2f2f2f;
   width: auto; }
   .site-nav ul {
     margin: 0;
     padding: 0;
     *zoom: 1; }
     .site-nav ul li {
-      margin-right: 5px;
       list-style: none;
       float: left;
-      background-color: #FFF; }
+      background-color: #2f2f2f;
+      box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.07);
+      border: 0px solid #121212; }
       .site-nav ul li a {
         font-size: 18;
-        color: #1E326A;
+        color: #fff;
         font-family: "Tahoma";
         font-weight: bold;
         line-height: 0.6;
@@ -110,7 +111,8 @@
           border-bottom: none;
           text-decoration: none; }
         .site-nav ul li a:hover {
-          background-color: #AAA0F6; }
+          background-color: #2f2f2f;
+          color: #fcb; }
   .site-nav ul:before, .site-nav ul:after {
     content: "";
     display: table; }
@@ -119,12 +121,12 @@
 
 li.current-menu-item a:visited, .site-nav ul li.current-menu-item a:link {
   font-weight: bold;
-  background-color: #0061A6;
+  background-color: #2f2f2f;
   color: #FFF; }
 
 li.current-page-ancestor a:visited, .site-nav ul li.current-page-ancestor a:link {
   font-weight: bold;
-  background-color: #0061A6;
+  background-color: #2f2f2f;
   color: #FFF; }
 
 .children-links {
