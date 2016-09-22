@@ -15,6 +15,31 @@ register_nav_menus( array(
 ));
 
 
+/* Add our widgets */
+function WidgetsInitialization() { 
+   
+  register_sidebar(array(  
+    'name' => 'Sidebar Widgets',  
+    'id'   => 'sidebar-widgets',
+    'before_widget' => '<div class="sidebar-widget-item " id="%1$s">',
+    'after_widget' => '</div>',   
+    'before_title' => '<h4 class="widget-item-header">',
+    'after-title' => '</h4>',
+    'description'   => 'Widget Area'   
+    ));  
+  
+  register_sidebar(array(  
+    'name' => 'Footer_1',  
+    'id'   => 'footer_1',  
+    'before_widget' => '<div class="footer-widget-item">',
+    'after_widget' => '</div>',   
+    'before_title' => '<h4 class="my-specialclass">',
+    'after-title' => '</h4>',
+    'description'   => 'Widget Area'   
+    ));   
+}
+add_action('widgets_init','WidgetsInitialization');
+
 
 
 /* myThemeClass */

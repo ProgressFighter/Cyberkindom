@@ -44,7 +44,7 @@
 
 #bar {
   background-color: #187D99;
-  height: 60px;
+  height: 52px;
   width: 1280px; }
   #bar #home {
     text-decoration: none;
@@ -152,15 +152,88 @@ li.current-page-ancestor a:visited, .site-nav ul li.current-page-ancestor a:link
 /* SIDE COLUMN */
 /***************/
 .secondary-column {
+  position: relative;
   background-color: #fff;
   width: 25%;
+  height: 900px;
   float: right;
+  -webkit-box-shadow: inset 1px -2px 27px -19px rgba(62, 66, 61, 0.82);
+  -moz-box-shadow: inset 1px -2px 27px -19px rgba(62, 66, 61, 0.82);
+  box-shadow: inset 1px -2px 27px -19px rgba(62, 66, 61, 0.82); }
+
+.author-info {
+  position: absolute;
+  top: 35px;
+  left: 15%;
+  width: 220px;
+  height: 230px;
+  background-color: #FFF;
+  border: 1px; }
+
+.header-panel {
+  position: relative;
+  left: -40px;
+  height: 5px;
+  width: 275px;
+  background-color: #7E6034;
+  box-sizing: border-box; }
+
+.author-photo {
+  margin-left: 50px;
   margin-top: 20px;
-  -moz-border-radius: 8px 8px;
-  -webkit-border-radius: 8px 8px;
-  -khtml-border-radius: 8px 8px;
-  -o-border-radius: 8px 8px;
-  border: 0px #bbb solid; }
+  width: 100px;
+  height: 100px; }
+
+.circular {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  background: url(http://link-to-your/image.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+.me {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #714F3A; }
+
+.contacts {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px; }
+  .contacts img {
+    margin-top: 10px;
+    margin-left: 10px; }
+
+.widgets-zone {
+  position: relative;
+  top: 300px;
+  left: 10px;
+  margin-top: 40px;
+  height: 230px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.sidebar-widget-item {
+  position: absolute; }
+  .sidebar-widget-item h4 {
+    font-family: "Times New Roman", Times, serif;
+    opacity: 0.8; }
+  .sidebar-widget-item ul li {
+    margin: 8px; }
+    .sidebar-widget-item ul li span {
+      font-size: 12px;
+      font-family: "Times New Roman", Times, serif; }
+    .sidebar-widget-item ul li a {
+      color: #323359; }
+
+#tag_cloud-2 {
+  top: 150px; }
 
 /**********************/
 /* END OF SIDE COLUMN */

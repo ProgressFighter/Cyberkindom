@@ -2,12 +2,131 @@
 /* SIDE COLUMN */
 /***************/
 .secondary-column {
+     position: relative;
+
     
      background-color: $sidebar-color;
-     width: 25%;
-     float: right;	
-     margin-top: 20px;
-     @include rounded_borders(#bbb, 0px); 
+     width:  25%;
+     height: 900px;
+     float:  right;	
+         
+
+     -webkit-box-shadow: inset 1px -2px 27px -19px rgba(62,66,61,0.82);
+     -moz-box-shadow: inset 1px -2px 27px -19px rgba(62,66,61,0.82);
+     box-shadow: inset 1px -2px 27px -19px rgba(62,66,61,0.82);
+  
+}
+
+.author-info {
+    position: absolute;
+    top:    35px;
+    left:   15%;
+    
+
+    width:  220px;
+    height: 230px;
+    background-color: #FFF;
+    border: 1px;
+}
+
+.header-panel
+{
+    position: relative;
+    left: -40px;
+    
+    height: 5px;
+    width: 275px;
+
+    background-color: #7E6034;;
+    box-sizing: border-box;
+}
+
+.author-photo{
+	margin-left: 50px;
+    margin-top: 20px;
+    width:  100px;
+ 	height: 100px;
+}
+
+
+.circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background: url(http://link-to-your/image.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.me {
+    
+    margin-top: 20px;
+    margin-left: 30px;
+
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #714F3A;
+
+}
+
+.contacts{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    img {
+           margin-top: 10px;
+           margin-left: 10px;        
+    }
+}
+
+.widgets-zone {
+    
+    position: relative;
+    top: 300px;
+    left: 10px;
+    
+    margin-top: 40px;
+    height: 230px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sidebar-widget-item {
+    
+     position: absolute;
+   
+      h4 { 
+             font-family: "Times New Roman", Times, serif;
+             opacity: 0.8;
+      }
+
+      ul{
+            li {
+
+                     margin: 8px;
+
+                     span {
+                          font-size: 12px;
+                          font-family: "Times New Roman", Times, serif;    
+                          
+                     }
+
+                     a {
+                              color: #323359;
+                           
+                      }
+            }
+
+      }
+}
+
+
+#tag_cloud-2 {
+     top: 150px;
 
 }
 
