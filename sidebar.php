@@ -7,14 +7,14 @@
               
             <div class="header-panel"> </div>
 
-             <img  src='http://cyberkindom.ru/wp-content/uploads/2016/08/author.jpg'  class="author-photo circular"/>
+             <img  src='http://belyakov.tech:8080/wp-content/themes/Cyberkindom/images/author.jpg'  class="author-photo circular"/>
                          
             <p class="me"> Дмитрий Беляков </p>
 
             <div class="contacts">    
-             <img  src='http://cyberkindom.ru/wp-content/themes/cyberkindom-belyakov/images/facebook.png'  />
-             <img  src='http://cyberkindom.ru/wp-content/themes/cyberkindom-belyakov/images/twitter.png'  />
-             <img  src='http://cyberkindom.ru/wp-content/themes/cyberkindom-belyakov/images/github.png'  />
+             <img  src='http://belyakov.tech:8080/wp-content/themes/Cyberkindom/images/facebook.png'  />
+             <img  src='http://belyakov.tech:8080/wp-content/themes/Cyberkindom/images/twitter.png'  />
+             <img  src='http://belyakov.tech:8080/wp-content/themes/Cyberkindom/images/github.png'  />
             </div>  
               
             <div class="header-panel"> </div>  
